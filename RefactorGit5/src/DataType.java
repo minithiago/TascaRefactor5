@@ -1,3 +1,8 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+
 public class DataType {
     public static void main(String[] args) {
         System.out.println(DataType.gd(20));
@@ -5,6 +10,9 @@ public class DataType {
         System.out.println(DataType.gd(0));
     }
     public static String gd(int code){
+        Set<Integer> fechas = new HashSet<>(Arrays.asList(702, 1082, 1083, 1114, 1184, 1266, 12403));
+
+
         if (
                 code == 702 ||
                         code == 1082 ||
